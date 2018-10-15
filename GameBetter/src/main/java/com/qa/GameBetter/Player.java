@@ -21,7 +21,8 @@ public class Player {
 		System.out.println("Distance from treasure = " + distanceX + "," + distanceY);
 		if(distanceY == 0 && distanceX == 0) {
 			System.out.println("You found the treasure!!!");
-		}		
+		} else if (distanceY != 0 || distanceX != 0)	
+			System.out.println("Which direction do you want to move next?");
 	}
 	
 	
@@ -32,7 +33,8 @@ public class Player {
 		System.out.println("Distance from treasure = " + distanceX + "," + distanceY);
 		if(distanceY == 0 && distanceX == 0) {
 			System.out.println("You found the treasure!!!");
-		}		
+		} else if (distanceY != 0 || distanceX != 0)	
+			System.out.println("Which direction do you want to move next?");		
 	}
 	
 	
@@ -43,7 +45,8 @@ public class Player {
 		System.out.println("Distance from treasure = " + distanceX + "," + distanceY);
 		if(distanceY == 0 && distanceX == 0) {
 			System.out.println("You found the treasure!!!");
-		}		
+		} else if (distanceY != 0 || distanceX != 0)	
+			System.out.println("Which direction do you want to move next?");		
 	}
 	
 	
@@ -55,7 +58,8 @@ public class Player {
 		System.out.println("Distance from treasure = " + distanceX + "," + distanceY);
 		if(distanceY == 0 && distanceX == 0) {
 			System.out.println("You found the treasure!!!");
-		}		
+		} else if (distanceY != 0 || distanceX != 0)	
+			System.out.println("Which direction do you want to move next?");		
 	}
 	
 	
